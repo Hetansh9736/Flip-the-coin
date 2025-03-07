@@ -4,6 +4,9 @@ import Background from './Assets/Background.png'
 import Nav from './Components/Nav'
 import Footer from './Components/Footer'
 import Leaderboard from './Components/Leaderboard'
+import PreloadGas from './Components/PreloadGas'
+import GiftCard from './Components/GiftCard'
+
 function App() {
 
   return (
@@ -15,9 +18,11 @@ function App() {
         }}
       >
         <Nav />
-        {/* <div className="container flex justify-center mt-12 ">
+        <div className="container flex justify-center">
           <Leaderboard />
-        </div> */}
+          {/* <PreloadGas/> */}
+        {/* <GiftCard/> */}
+        </div>
         <Footer />
       </div>
     </>

@@ -5,7 +5,6 @@ import Click from '../Assets/Click.png'
 
 function Footer() {
     return (
-        <>
             <footer className='fixed bottom-0 left-1/2 transform -translate-x-1/2 flex flex-col justify-center items-center pb-9 sm:pb-6 w-full'>
                 <div className="container flex gap-2 items-center justify-center flex-wrap sm:gap-1">
                     <div className="punch h-12 lg:h-12 bg-[#9F1431] flex rounded-[10px] justify-center items-center border-2 border-[#FFC165]">
@@ -42,7 +41,6 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-        </>
     )
 }
 
