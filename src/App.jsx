@@ -19,7 +19,7 @@ function App() {
       >
         <Nav />
         <div className="container flex justify-center">
-          <Leaderboard />
+          {/* <Leaderboard /> */}
           {/* <PreloadGas/> */}
         {/* <GiftCard/> */}
         </div>

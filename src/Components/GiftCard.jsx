@@ -19,16 +19,16 @@ function GiftCard() {
         </div>
         <div className='bg-[#88102A] flex justify-between p-4 items-center w-full rounded-md gap-2'>
           <input type="text" placeholder='Enter Username' className='uppercase outline-none text-[#FFFFFF66] text-md w-full' />
-          <button className='py-1 px-2 bg-[#C22948] uppercase text-xs rounded-full'>paste</button>
+          <button className='py-1 px-2 bg-[#C22948] uppercase text-xs rounded-full cursor-pointer'>paste</button>
         </div>
         <div className='bg-[#88102A] flex justify-between p-4 items-center w-full rounded-md'>
           <input type="text" placeholder='Number of tokens' className='uppercase outline-none text-[#FFFFFF66] text-md w-full' />
         </div>
         <div className='flex gap-2 flex-wrap justify-center'>
-          <button className='py-2 px-5 bg-[#C22948] uppercase text-xs rounded-full '>1000 taps</button>
-          <button className='py-2 px-5 bg-[#C22948] uppercase text-xs rounded-full '>5000 taps </button>
-          <button className='py-2 px-5 bg-[#C22948] uppercase text-xs rounded-full '>10000 taps</button>
-          <button className='py-2 px-3 bg-[#C22948] uppercase text-xs rounded-full '>MAX</button>
+          <button className='py-2 px-5 bg-[#C22948] uppercase text-xs rounded-full cursor-pointer '>1000 taps</button>
+          <button className='py-2 px-5 bg-[#C22948] uppercase text-xs rounded-full cursor-pointer '>5000 taps </button>
+          <button className='py-2 px-5 bg-[#C22948] uppercase text-xs rounded-full cursor-pointer '>10000 taps</button>
+          <button className='py-2 px-3 bg-[#C22948] uppercase text-xs rounded-full cursor-pointer '>MAX</button>
         </div>
             <button className='uppercase px-4 py-2.5 bg-gradient-to-r from-[#FFC369] to-[#FFBF5F] w-full text-[#9F1431] border-t-[2px] border-white shadow-[0_2px_0_0_rgb(0,0,0)] rounded-[4px] cursor-pointer text-md'>deposit</button>
       </div>
